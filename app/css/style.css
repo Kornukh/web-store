@@ -120,6 +120,10 @@ textarea {
 .white-bg{
     background-color: #fff;
 }
+a:hover{
+    text-decoration: none;
+    color: #ff5912;
+}
 /*DEFAULT CLASSES END*/
 /*DEFAULT COMPONENT START*/
 .header .bottom-header{
@@ -129,3 +133,34 @@ textarea {
     margin-left: auto;
 }
 /*DEFAULT COMPONENT END*/
+/*CUSTOM STTYLE START*/
+
+.logo{
+    margin-right:81px;
+}
+.header-nav a+a{
+    margin-left:41px;
+}
+.user-controls a+a{
+    margin-left:30px;
+}
+.header-nav {
+    font: 16px "HarmoniaSansProCyr Regular", sans-serif;
+}
+header{
+    color: #34404b;
+}
+.header .top-header{
+    padding:25px 0;
+    border-bottom:1px solid #edeff1;
+}
+.header .top-header .social-links{
+    margin-left:auto;
+}
+.header .top-header a+a{
+    margin-left:20px;
+}
+.header .top-header div+div{
+    margin-left:25px;
+}
+/*CUSTOM STYLE END*/
