@@ -313,8 +313,10 @@ header{
 .sale-carousel .carousel-indicators li+li{
     margin-top:10px;
 }
+
 .sale-carousel .carousel-indicators li.active{
     background-color: #ff5912;
+    height:36px;
 }
 .red-bg{
     background-color: #e12e3f;
