@@ -197,7 +197,7 @@ header{
     position: relative;
     height:372px;
 }
-.item:hover{
+.product-item:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .product-item .item-description{
@@ -325,6 +325,6 @@ header{
     transform: rotate(45deg);
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
 }
 /*CUSTOM STYLE END*/
