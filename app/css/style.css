@@ -218,7 +218,7 @@ header{
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .product-item .item-description{
-    padding:0 37px;
+    paddint:0 37px;
     margin-top:30px;
 }
 .product-item .item-title{
@@ -260,15 +260,16 @@ header{
     opacity:0;
     position: absolute;
     bottom:30px;
-    left:0;
+    left:50%;
     width: 100%;
     padding:0 50px;
+    transform:translateX(-50%);
     -webkit-transition: all .3s linear;
     -o-transition: all .3s linear;
     transition: all .3s linear;
-    z-index: -1;
+    /*z-index: -1;*/
 }
-.more-info-on-hover:hover{
+.product-item:hover .more-info-on-hover{
     opacity:1;
 }
 
@@ -314,11 +315,8 @@ header{
     margin-top:10px;
 }
 .sale-carousel .carousel-indicators li.active{
-    height:36px;
     background-color: #ff5912;
-
 }
-
 .red-bg{
     background-color: #e12e3f;
 }
@@ -361,6 +359,6 @@ header{
             transform: rotate(45deg);
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
 }
 /*CUSTOM STYLE END*/
