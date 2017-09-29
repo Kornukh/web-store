@@ -213,7 +213,7 @@ header{
     position: relative;
     height:372px;
 }
-.product-item:hover{
+.item:hover{
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
@@ -253,7 +253,7 @@ header{
 .product-item:hover .item-title{
     color: #ff5912;
 }
-.product-item .item-img img{
+.product-item .item-img{
     max-height:100%;
 }
 .product-item .more-info-on-hover{
@@ -268,7 +268,7 @@ header{
     transition: all .3s linear;
     z-index: -1;
 }
-.product-item:hover .more-info-on-hover{
+.more-info-on-hover:hover{
     opacity:1;
 }
 
