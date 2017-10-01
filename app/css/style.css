@@ -455,14 +455,55 @@ header{
 .item-price span{
     margin-left:20px;
     font-size:32px;
+    font-family: 'Harmonia_black';
 }
 .item-price .fa.fa-usd{
-    font-size:22px;
+    font-size:19px;
 }
+
 .adv-area {
     width:470px;
     height:100px;
     padding:35px 60px;
+    font-size:16px;
+}
+.adv-area .adv-size{
+    font-size:12px;
+    letter-spacing:.6em;
+    opacity:0.4;
+    margin-top: 15px;
+}
+.best-item{
+    overflow: hidden;
+    padding:30px 30px;
+}
+.best-rate-price{
+    display: inline-block;
+    margin-left:30px;
+
+}
+.best-item-rate,.best-item-rate li, .best-item-title{
+    display: inline-block;
+}
+.best-item-title{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+.best-item-rate{
+    margin-right:85px;
+
+}
+.best-item-title{
+    margin-left:30px;
+    font-family:"Harmonia_bold",sans-serif;
+    font-size:18px;
+}
+.best-item-price{
+    font-family:"Harmonia_bold",sans-serif;
+    font-size:16px;
+}
+.empty-star{
+    color: #e9ecf3;
 }
 
 .sale-carousel{
