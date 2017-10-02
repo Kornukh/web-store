@@ -137,6 +137,9 @@ a:hover {
     text-decoration: none;
     color: #ff5912;
 }
+.text-italic{
+    font-family:"Harmonia_italic",sans-serif;
+}
 
 .orange-text {
     color: #ff5912;
@@ -199,9 +202,41 @@ a:hover {
 .header .bottom-header .user-controls {
     margin-left: auto;
 }
-.header .bottom-header .icon-search-ic:hover{
-    background-image: url(../img/search-hover-ic.png);
-    background-position: -42px -38px;
+.icon-search-ic:hover{
+    background-image: url(../img/sprite.png);
+    background-position: -81px 0px;
+    width: 18px;
+    height: 18px;
+}
+.icon-user-ic:hover{
+    background-image: url(../img/sprite.png);
+    background-position: 0px -59px;
+    width: 20px;
+    height: 21px;;
+}
+.user-controls .icon-cart-ic:hover {
+    background-image: url(../img/sprite.png);
+    background-position: -20px -59px;
+    width: 24px;
+    height: 17px;
+}
+.icon-share-ic:hover{
+    background-image: url(../img/sprite.png);
+    background-position: -44px -59px;
+    width: 19px;
+    height: 17px;
+}
+.icon-add-to-cart-ic:hover{
+    background-image: url(../img/sprite.png);
+    background-position: 0px -38px;
+    width: 22px;
+    height: 21px;
+}
+.icon-like-ic:hover{
+    background-image: url(../img/sprite.png);
+    background-position: -38px -80px;
+    width: 19px;
+    height: 16px;
 }
 
 .subscribe-form {
@@ -690,4 +725,60 @@ header {
     top: 0;
 }
 
+.subscribe-description .orange-text{
+    font-family:"Harmonia_bold", sans-serif;
+    font-size:18px;
+    text-transform: uppercase;
+    margin-right:24px;
+}
+.subscribe-description span{
+    font-size:14px;
+}
+.subscribe-input{
+    margin:0 160px 0 10px;
+}
+.subscribe-form .btn{
+    color: #fff4ef;
+    padding:20px 30px;
+    border:none;
+    border-radius:0;
+}
+.subscribe-form .btn:hover{
+    background-color: #ff9060;
+}
+footer{
+    padding-top:78px;
+    padding-bottom:78px;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo a{
+    margin-bottom:20px;
+}
+.footer-nav ul{
+    list-style-type:disc;
+    font-size:14px;
+    line-height:2.14;
+    color: #28313b;
+}
+.footer-nav ul+ul{
+    margin-left:120px;
+}
+
+.footer-nav ul li:hover{
+    color: #ff5912;
+}
+.payment-methods .orange-text{
+    font-family:"Harmonia_semibold",sans-serif;
+    font-size:16px;
+    line-height:1.8;
+}
+.payment-methods-icon{
+    margin-top:17px;
+}
+.payment-methods-icon li+li{
+    margin-left:10px;
+}
 /*CUSTOM STYLE END*/
