@@ -438,7 +438,7 @@ header {
 }
 
 .product-item .item-description {
-    padding: 0 37px;
+    padding: 0 20px;
     margin-top: 30px;
 }
 
@@ -837,3 +837,41 @@ footer{
     margin-left:10px;
 }
 /*CUSTOM STYLE END*/
+/*CATEGORY STYLE START*/
+/*DEFAULT STYLE START*/
+
+.aside-section-title{
+    color: #ff5912;
+    font-family:"Harmonia_black", sans-serif;
+    font-size:18px;
+    margin-bottom:30px;
+}
+.aside-section-text{
+    font-family:"Harmonia_semibold",sans-serif;
+    font-size:16px;
+    line-height:3.1;
+}
+.range{
+    padding-top:25px;
+}
+
+/*DEFAULT STYLE END*/
+.add-range-value{
+    font-size:14px;
+
+}
+input[name="fromValue"],input[name="toValue"]{
+    background-color: #edf0f2;
+    width: 45px;
+    height: 25px;
+    padding:3px;
+    margin-left:10px;
+}
+.range-input-reoup.from{
+    margin-right:auto;
+}
+.sizes-range div+div{
+    /*margin-top:35px;*/
+}
+
+/*CATEGORY STYLE END*/
