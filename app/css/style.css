@@ -111,6 +111,9 @@ input, button, select {
 button {
     cursor: pointer;
 }
+.standard-margin  >div{
+    margin-top:30px;
+}
 
 /*STYLE RESET END*/
 /*DEFAULT CLASSES START*/
@@ -329,7 +332,8 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .add-range-value {
-    margin-top: 30px;
+    margin-top: 35px;
+    font-size:14px;
 }
 
 .min-value,
@@ -849,17 +853,13 @@ footer{
 .aside-section-text{
     font-family:"Harmonia_semibold",sans-serif;
     font-size:16px;
-    line-height:3.1;
 }
 .range{
     padding-top:25px;
 }
 
 /*DEFAULT STYLE END*/
-.add-range-value{
-    font-size:14px;
 
-}
 input[name="fromValue"],input[name="toValue"]{
     background-color: #edf0f2;
     width: 45px;
@@ -870,8 +870,8 @@ input[name="fromValue"],input[name="toValue"]{
 .range-input-reoup.from{
     margin-right:auto;
 }
-.sizes-range div+div{
-    /*margin-top:35px;*/
+.items-range > * + *{
+    margin-top:35px;
 }
 
 /*CATEGORY STYLE END*/
