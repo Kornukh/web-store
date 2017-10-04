@@ -147,6 +147,9 @@ a:hover {
 .orange-text {
     color: #ff5912;
 }
+.default-item-price{
+    font-size:18px;
+}
 
 /*DEFAULT CLASSES END*/
 /*DEFAULT COMPONENT START*/
@@ -820,3 +823,24 @@ input[name="fromValue"],input[name="toValue"]{
 }
 
 /*CATEGORY STYLE END*/
+/*PRODUCT SLIDER START*/
+.product-slider{
+    width:330px;
+}
+
+/*PRODUCT SLIDER END*/
+/*PRODUCT DESCRIPTION START*/
+.size-radio input[type="radio"]{
+    display: none;
+}
+.size-radio{
+    font-size:14px;
+    user-select:none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.size-radio input[type="radio"]:checked + label{
+    color: #ff5912;
+    font-size:18px;
+}
+/*PRODUCT DESCRIPTION END*/
