@@ -98,11 +98,7 @@
 	padding: 0 38px;
 }
 .jq-number__field {
-	width: 100px;
-	border: 1px solid #CCC;
-	border-bottom-color: #B3B3B3;
-	border-radius: 4px;
-	box-shadow: inset 1px 1px #F1F1F1, 0 1px 2px rgba(0,0,0,.1);
+	max-width: 70px;
 }
 .jq-number__field:hover {
 	border-color: #B3B3B3;
@@ -115,7 +111,7 @@
 	outline: none;
 	background: none;
 	font: 14px Arial, sans-serif;
-	color: #333;
+	color: #ff5912;
 }
 .jq-number__spin {
 	position: absolute;
@@ -159,6 +155,9 @@
 	border: none;
 	background: #666;
 }
+.jq-number .input-quantity{
+	text-align: center;
+}
 /*.jq-number__spin.minus:after {
 	top: 5px;
 	border-top: 5px solid #999;
@@ -198,6 +197,14 @@
 .jq-number.disabled .jq-number__spin.minus:after {
 	border-top-color: #AAA;
 }
+
+.jq-number__spin.minus, .jq-number__spin.plus{
+	background: none;
+	box-shadow:none;
+	border:none;
+}
+
+
 .jq-selectbox {
 	vertical-align: middle;
 	cursor: pointer;
